@@ -1,0 +1,12 @@
+2022-01-26 11:01:112 INFO  ManageDriver :31 - Launching Chrome Browser
+2022-01-26 11:01:484 INFO  ManageDriver :31 - Launching Chrome Browser
+2022-01-26 12:01:790 INFO  ManageDriver :31 - Launching Chrome Browser
+2022-01-26 12:01:872 INFO  LoginPage :31 -  Enter username standard_user to the field[[ChromeDriver: chrome on WINDOWS (651e64121189f2ff4a86cc88deb3cc3c)] -> css selector: #user-name]And Password secret_sauce to the field[[ChromeDriver: chrome on WINDOWS (651e64121189f2ff4a86cc88deb3cc3c)] -> id: password]
+2022-01-26 12:01:268 INFO  LoginPage :37 - Clicking On login Button :Proxy element for: DefaultElementLocator 'By.id: login-button'
+2022-01-26 12:01:472 INFO  ProductPage :39 - Select Product From DropDown:[[ChromeDriver: chrome on WINDOWS (651e64121189f2ff4a86cc88deb3cc3c)] -> class: product_sort_container]
+2022-01-26 12:01:609 INFO  ProductPage :44 - Clicking On Cheapest Price Product :[[ChromeDriver: chrome on WINDOWS (651e64121189f2ff4a86cc88deb3cc3c)] -> css selector: .inventory_list .inventory_item:nth-of-type(6) .btn_inventory]
+2022-01-26 12:01:743 INFO  ProductPage :30 - Clicking On CartButton :[[ChromeDriver: chrome on WINDOWS (651e64121189f2ff4a86cc88deb3cc3c)] -> css selector: #shopping_cart_container]
+2022-01-26 12:01:868 INFO  ProductPage :34 - Clicking On Checkout :Proxy element for: DefaultElementLocator 'By.cssSelector: .btn_action.checkout_button'
+2022-01-26 12:01:551 INFO  CheckOutPage :41 - Clicking On Continue Button :Proxy element for: DefaultElementLocator 'By.cssSelector: [type='submit']'
+2022-01-26 12:01:713 INFO  CheckOutPage :46 - Clicking On Finish Button :Proxy element for: DefaultElementLocator 'By.cssSelector: .cart_button'
+2022-01-26 12:01:744 INFO  CompleteCheckoutPage :21 - Getting confirmation text to confirm Order [[ChromeDriver: chrome on WINDOWS (651e64121189f2ff4a86cc88deb3cc3c)] -> css selector: .complete-header]
